@@ -55,7 +55,7 @@
         font-weight: 600;
         font-family: 'Poppins', sans-serif;
         display: inline-block;
-        background-image: linear-gradient(to right, $primary, $secondary);
+        background-image: linear-gradient(to right, #13274F, #6699CC);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -81,5 +81,5 @@
 
 // GRADIENT BG 
 .gradient  {
-    background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+    background: linear-gradient(to right, #002D62, #5072A7);
 }
