@@ -1483,6 +1483,11 @@ progress {
     width: 100%;
   }
 
+  .col-lg-13 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+
   .offset-lg-0 {
     margin-left: 0;
   }
@@ -11781,7 +11786,10 @@ textarea.form-control-lg {
 	font-size: 20px; */
 }
 
-
+.technology_container{
+  /* margin:auto;
+  background-color:black; */
+}
 
 
 
