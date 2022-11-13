@@ -38,33 +38,6 @@
   <body>
     <script>
 
-    // $( document ).ready(function() {
-    //     var dots = document.getElementById("dots");
-    //     var moreText = document.getElementById("more");
-    //     var btnText = document.getElementById("myBtn");
-      
-    //       dots.style.display = "inline";
-    //       btnText.innerHTML = "Read more"; 
-    //       moreText.style.display = "none";
-    //   });
-
-
-      // function readMore() {
-      //   alert("hh")
-      //   var dots = document.getElementById("dots");
-      //   var moreText = document.getElementById("more");
-      //   var btnText = document.getElementById("myBtn");
-
-      //   if (dots.style.display === "none") {
-      //     dots.style.display = "inline";
-      //     btnText.innerHTML = "Read more"; 
-      //     moreText.style.display = "none";
-      //   } else {
-      //     dots.style.display = "none";
-      //     btnText.innerHTML = "Read less"; 
-      //     moreText.style.display = "inline";
-      //   }
-      // }
       $(document).ready(function(){
 	        $(".read").click(function(){
 		        $(this).prev().toggle();
@@ -79,12 +52,10 @@
 });
 
       </script>
-    <!-- ////////////////////////////////////////////////////////////////////////////////////////
-                               START SECTION 1 - THE NAVBAR SECTION  
-/////////////////////////////////////////////////////////////////////////////////////////////-->
+
     <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="">
+        <a class="navbar-brand" href="index.html">
           <h1><img src="images/logo.png" alt="logo image" /> ICAAT</h1>
         </a>
         <button
@@ -121,6 +92,9 @@
               <a class="nav-link" href="#architecture">System Architecture</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#poster">Poster</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#reference">Reference</a>
             </li>
           </ul>
@@ -128,9 +102,6 @@
       </div>
     </nav>
 
-    <!-- /////////////////////////////////////////////////////////////////////////////////////////////////
-                            START SECTION 2 - THE INTRO SECTION  
-/////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
     <section id="home" class="intro-section">
       <div class="container">
@@ -155,10 +126,6 @@
       </svg>
     </section>
 
-    <!-- //////////////////////////////////////////////////////////////////////////////////////////////
-
-                         START SECTION 4 - THE SERVICES  
-///////////////////////////////////////////////////////////////////////////////////////////////////-->
     <section id="abstract" class="services">
       <div class="container">
         <div class="row text-center">
@@ -232,17 +199,11 @@
             <h2 class="display-3--title mt-1">Main Objective</h2>
           </div>
 
-          
-
           <div class="objective_card">
          
             <strong>The main objective lies in designing and developing machine learning models, to automate the assessment of cognitive abilities in Sri Lankan children between ages seven and nine years.</strong>
 
         </div>
-
-
-
-
           <div class="row text-center">
             <h2 class="display-3--title mt-1">Specific Objectives</h2>
           </div>
@@ -312,9 +273,7 @@ sequence of words.
       
             <button class="read">read more</button>
           </div>
-                      
-
-
+                    
         </div>
       </div>
       <div class="col-md-6">
@@ -420,12 +379,39 @@ sequence of words.
           </div>
         </div>
       </div>
+
+
+      <br /><br /><br />
+
+      
+
+  </section>
+
+  <section id="poster">
+   
+    <div class="container">
+      <div class="row text-center">
+        <h2 class="display-3--title mt-1">Poster</h2>
+      </div>
+      <div class="row">
+        <div class="poster">
+          
+        <img
+          src="https://i.ibb.co/3MgL59K/ICAAT-Poster-2022-073.jpg"
+          alt="marketing illustration"
+          class="img-fluid"
+        />
+      </div>
+    </div>
+  </div>
+  </section>
+
       </div>
       <br /><br /><br />
       <div class="row text-center">
         <h2 class="display-3--title mt-1">Reference</h2>
       </div>
-    </section>
+    
     <section id="reference">
         <div class="reference">
           <p>​[1]	A. Hewamalage, “Normative references of cognitive abilities and its correlates among primary school child population in Colombo District,” Post Graduate Institute of Medicine University of Colombo, 2015. <br /><br />
