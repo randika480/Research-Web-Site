@@ -11766,6 +11766,9 @@ textarea.form-control-lg {
 	text-align: justify;
 	line-height: 25px;
 	font-family: 'Work Sans',sans-serif;
+  padding-left:1rem;
+  padding-right:1rem;
+
 }
 .post:not(:last-child){
 	margin-bottom: 30px;
