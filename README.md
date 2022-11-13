@@ -5,4 +5,4 @@ Coloborators - Adithya Kahawanugoda
              - Kulanika Gnanaratna
              - Randika Monarawila
 
-Web site link - icaat.netlify.app
+Web site link - https://icaat.netlify.app/
